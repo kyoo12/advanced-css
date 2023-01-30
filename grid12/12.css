@@ -10,22 +10,34 @@
  }
 
  .twelve {
-    background-color: lightseagreen;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     grid-column: 1/ span 12;
  }
  .eight {
-    background-color: rgba(199, 222, 152, 0.589);
-    grid-column: 1/ span 12;
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+    grid-column: 5/ span 8;
  }
  .fore {
-    background-color: rgba(175, 152, 222, 0.589);
-    grid-column: 1/ span 12;
+    grid-column: 1/ span 4;
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+   
  }
  .six {
-    background-color: rgba(205, 152, 222, 0.589);
-    grid-column: 1/ span 12;
+    grid-column: 5/ span 6;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    
+
+ 
  }
  .seven {
-    background-color: rgba(152, 215, 222, 0.589);
-    grid-column: 1/ span 12;
+    grid-column: 3/ span 7;
+    background-color: #FA8BFF;
+background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
  }
