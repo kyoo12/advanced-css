@@ -1,0 +1,31 @@
+.perent {
+    display: grid;
+    grid-template-columns: repit(12, 1fr);
+}
+ .segment {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: 100px;
+ }
+
+ .twelve {
+    background-color: lightseagreen;
+    grid-column: 1/ span 12;
+ }
+ .eight {
+    background-color: rgba(199, 222, 152, 0.589);
+    grid-column: 1/ span 12;
+ }
+ .fore {
+    background-color: rgba(175, 152, 222, 0.589);
+    grid-column: 1/ span 12;
+ }
+ .six {
+    background-color: rgba(205, 152, 222, 0.589);
+    grid-column: 1/ span 12;
+ }
+ .seven {
+    background-color: rgba(152, 215, 222, 0.589);
+    grid-column: 1/ span 12;
+ }
